@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    
+<title>TASCA</title>
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+<style>
+    table, th, td {
+        border: 1px solid;
+        border-color:black;
+        border-collapse: collapse;
+        background-color: rgba(255, 228, 196, 0.5);  
+}
+    th, td {
+        font-family:Calibri;
+        font-size:14pt;
+        color:#000000;
+        line-height: 2;
+}
+    th{
+        font-family:Calibri;
+        font-size:16pt;
+        color: #000000;
+        line-height: 2;
+}
+    body{
+        background-color: rgba(245, 245, 220 0.5);
+        background-repeat:repeat/no-repeat/repeat-x/repeat-Y;
+        background-attachment: scroll/fixed;
+        background-position:right top;         
+}
+    body::before {
+        content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(https://img.freepik.com/vetores-premium/um-padrao-desenhado-a-mao-de-elementos-de-padaria-bretzel-croissant-pao-rosquinha-baguete-vector-doodle-sketch_414360-1926.jpg?w=740);
+      opacity: 0.3; 
+      z-index: -1;
+}
+    h1{
+        font-family:Monotype Corsiva;
+        font: size 30px;
+        text-align:center;
+        color: rgb(0, 0, 0);
+        background-color: bisque;
+        border-color:#ADD8E6;
+        border-style: outset2;
+        border-width:8px;
+ }
+    h2{
+        font-family:Monotype Corsiva;
+        font-size:20pt;
+        text-align:center;
+        color: rgb(0, 0, 0);
+        background-color: bisque;
+        border-color:#ADD8E6;
+        border-style: outset2;
+        border-width:8px;
+}
+    h3{
+        font-family:Monotype Corsiva;
+        font-size:20pt;
+        text-align:center;
+        color: rgb(0, 0, 0);
+        background-color: bisque;
+        border-color:#ADD8E6;
+        border-style: outset2;
+        border-width:8px;
+    }
+
+    .menu td, .menu th {
+        text-align: center;
+     }
+    .menus {
+        display: flex;
+        justify-content: space-between;
+    }
+    p{
+        margin-right: 100px;
+        margin-left:100px;
+    }
+   .comidas1 {
+    text-align: center; 
+   }
+   .comidas1 img{
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height:auto;
+    border-color: 2px bisque;
+    border-radius: 10px;
+    border: 3px solid bisque;
+
+   }
+   .comidas2{
+    text-align: center;
+   }
+
+   .comidas2 img{
+    display: inline-block;
+    margin: 50px;
+    width: 300px;
+    height:auto;
+    border-color: 2px bisque;
+    border-radius: 10px;
+    border: 3px solid bisque;
+   }
+   .intro{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12;
+   }
+   .sobremesa{
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .sobremesa ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .sobremesa li {
+            margin-bottom: 5px;
+        }
+
+    .imagem1{
+        float: left;
+        margin-left: 50px;
+        border-color: 10px bisque;
+        border-radius: 10px;
+        border: 3px solid bisque;
+        
+    } 
+    .imagem2{
+        float: right;
+        margin-right: 50px;
+        border-color: 10px bisque;
+        border-radius: 10px;
+        border: 3px solid bisque;
+    }   
+    button{
+        width: 200px;
+        height: 80px;
+        background-color: bisque;
+        border-radius: 5px;
+        
+    }  
+
+</style>
+
+
+</head>
+
+<body>
+
+
+    <h1> TASCA </h1>
+<p class="intro">
+    Desfrute de uma experiência gastronômica única em nossa tasca, onde os sabores se encontram e os sentidos são encantados. Descubra pratos cuidadosamente elaborados, com ingredientes frescos e uma pitada de criatividade. Deleite-se com uma culinária que combina tradição e inovação, em um ambiente acolhedor e sofisticado. Satisfaça seu paladar e deixe-se levar por uma viagem de sabores inesquecíveis. Seja bem-vindo ao nosso mundo gastronômico, onde cada garfada conta uma história.
+</p>
+<h2>⠀⠀⠀⠀⠀</h2>
+
+    <table style="width:30%;" align="center">
+    <tr>
+        <th colspan=2>Pratos do dia</td>
+         
+    </tr>
+    <tr>
+        <td><i>Segunda</i></td>
+        <td>Farofa de pato</td>
+    </tr>
+    <tr>
+        <td><i>Terça</i></td>
+        <td>Leitão</td>
+    </tr>
+    <tr>
+        <td><i>Quarta</i></td>
+        <td>Francesinha</td>
+    </tr>
+    <tr>
+        <td><i>Quinta</i></td>
+        <td>Porco preto</td>
+    </tr>
+    <tr>
+        <td><i>Sexta</i></td>
+        <td>Feijoada</td>
+    </tr>
+    <tr>
+        <td><i>Sábado</i></td>
+        <td>Bife com natas e cogumelos</td>
+    </tr>
+    <tr>
+        <td><i>Domingo</i></td>
+        <td>Picanha</td>
+    </tr>
+ 
+    </table>
+<br>
+
+<div class="comidas1">
+<img src="https://cdn.tasteatlas.com/images/dishes/df2fab8ced8f41a8bef7a2d4be68ef47.jpg?m=facebook">
+<img src="https://cdn.discordapp.com/attachments/1085673425646932081/1106936776301490260/variante-francesinhas.png">
+<img src="https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,w=1200,h=638,fit=cover,format=jpeg/wp-content/uploads/2020/12/farofa-vegetariana.jpg">
+
+
+</div>
+
+    <br>
+    <h2>Menu semanal</h2>
+    <br>
+
+<div class="menus">
+    <table class="menu" style="width:25%;">
+        <tr>
+            <th colspan=2>Entradas</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Pica pau</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Azeitonas</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Pão</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Torresmo</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Queijo fresco</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Brôa</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Patê</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Pão de alho</td>
+        </tr>
+    </table>
+    
+    
+    <table class="menu" style="width:25%;">
+        <tr>
+            <th colspan=2>Pratos principais</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Bacalhau a Brás</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Caldo verde</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Arroz de pato</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Sardinhas assadas</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Açorda de Mariscos</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Alheira</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Bifana</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Prego no Pão</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>Prego no Prato</td>
+        </tr>
+    </table>
+    
+    <table class="menu" style="width:25%;">
+        <tr>
+            <th colspan=2>Bebidas</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Coca Cola</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Pepsi</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Sumol</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Água</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Água das pedras</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Sommersby</td>
+        </tr>
+            <td>7.</td>
+            <td>Sangria</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Imperial</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>Caipirinha</td>
+        </tr>
+        <tr>
+            <td>10.</td>
+            <td>Vodka</td>
+        </tr>
+        
+    </table>
+
+</div>
+
+<div class="comidas2">
+    <img src="https://i.ytimg.com/vi/7wBo4xE6Rjo/maxresdefault.jpg" width="200" height="auto">
+    <img src="https://claradesousa.pt/wp-content/uploads/2018/11/IMG_1283PRINCIPALa.jpg" width="200" height="auto">
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/79/26/75/somersby.jpg" width="200" height="auto">
+</div>
+<br>
+<h3> Sobremesa</h3>
+<div class="sobremesa">
+    <img class="imagem1" src="https://static.itdg.com.br/images/1200-675/992b3b1ebeb0984248bfcd234a22f08a/332009-original.jpg" width="400" height="auto">
+    <img class="imagem2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-G8U6HyglRhQtZLJhwYaFg__3zfuqzliXrTsH-Nf4qm9Ww4_aEuCUPIglJ1bKd4dou4c&usqp=CAU" width="400" height="auto">
+    <div  style="font-family:calibri; font-size:16pt; color:#000000; line-height:2; margin-left: 43%; " >
+    <ul style="list-style-type: square; ">
+        <li>Cheesecake</li>
+        <li>Musse de chocolate</li>
+        <li>Musse de manga</li>
+        <li>Bolo de bolacha</li>
+        <li>Tarte de pastel de nata</li>
+        <li>Arroz doce</li>
+        <li>Tiramisu</li>
+        <li>Pudim de leite</li>
+        <li>Brigadeiro</li>
+    </ul>
+   
+</div>
+
+<h2>⠀⠀⠀⠀⠀</h2>
+<br>
+<center>
+   
+    <a href="https://www.youtube.com/watch?v=OqrcWqQmMcI" target="_blank">
+
+    <button type="submit"> ENCOMENDE JÀ </button>
+
+    </a>
+</center>
+
+    
+</body>
+
+
+<footer><br><br><p>© 2023 italo A., André C., Duarte O., Gonçalo S.</p></footer>
+</body>
+
+</html>
